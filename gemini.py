@@ -8,8 +8,8 @@ genai.configure(api_key=GOOGLE_API_KEY)
 MODELS = [
     "models/gemini-pro",  # Gemini Pro (limit: 30720 tokens)
     "models/gemini-1.5-pro-latest",  # Gemini 1.5 Pro (limit: 1M tokens)
-    "models/gemini-pro-vision",  # Gemini Pro Vision (limit: 12288 tokens)
-    "models/embedding-001",  # Embedding model with (limit: 2048 tokens)
+    # "models/gemini-pro-vision",  # Gemini Pro Vision (limit: 12288 tokens)
+    # "models/embedding-001",  # Embedding model with (limit: 2048 tokens)
 ]
 
 
